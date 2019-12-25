@@ -1,9 +1,19 @@
 # Hostess
 
+`hostess` hosts the current directory in a tiny web server for quick, local web development.
+
 ## Installation
 
-> I'm not sure why this isn't downloading to `$GOPATH/src` right now...
+> You'll need Go installed on your machine before running the following command.
 
 ```shell
-go get github.com/jessemillar/hostess
+go get -u -v github.com/jessemillar/hostess
+```
+
+## Usage
+
+> Use `hostess -h` for a list of available flags.
+
+```shell
+hostess
 ```
