@@ -41,7 +41,7 @@ jobs:
         prerelease: false
 
     - name: Zip Release Contents
-      run: mkdir release && mv config.toml release && mv hostess-windows-amd64.exe release && cd release && zip -r ../release.zip *
+      run: mkdir release && mv hostess-windows-amd64.exe release && cd release && zip -r ../release.zip *
       shell: bash
 
     - name: Upload Windows Release Asset
