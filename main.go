@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const version = "1.0.0"
+const version = "1.0.1"
 
 func main() {
 	port := flag.String("p", "8080", "port to serve on")
